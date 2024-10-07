@@ -1,0 +1,38 @@
+html,
+body {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.wrapper {
+  margin-bottom: 10rem;
+}
+
+.section {
+  padding: 40px;
+}
+
+.section-title {
+  color: #088F7E;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 500;
+  margin: 25px;
+  text-align: center;
+}
