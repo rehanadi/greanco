@@ -11,7 +11,7 @@ const About = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-4">
-            <div className="position-relative w-100 h-100">
+            <div className="position-relative w-75 h-75">
               <Image src={teams} alt="Teams" fill />
             </div>
           </div>

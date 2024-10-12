@@ -1,0 +1,10 @@
+.footer {
+  background: url("../assets/images/bg-footer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.copyright {
+  background-color: #DBDBDB;
+}
