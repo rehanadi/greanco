@@ -9,7 +9,7 @@ import mobile from '@/assets/images/mobile.svg';
 const Services = () => {
   return (
     <section className="section">
-      <div className="container">
+      <div className="container pb-5">
         <h3 className="section-title mb-5">We offer to your business growth</h3>
         <div className="d-flex flex-wrap justify-content-between align-items-center gap-2">
           <div className="card px-5 pt-2 pb-5 d-flex flex-column justify-content-center align-items-center" style={{ backgroundColor: 'rgba(255, 116, 0, 0.15)' }}>
