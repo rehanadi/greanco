@@ -4,3 +4,12 @@
   background-repeat: no-repeat;
   background-position: top;
 }
+
+.sliderImage {
+  position: absolute;
+  right: 5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 12rem;
+  height: 12rem;
+}

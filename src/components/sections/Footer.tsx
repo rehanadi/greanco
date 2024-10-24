@@ -20,7 +20,7 @@ const Footer = () => {
             </div>
 
             <div className="col-md-3">
-              <h4 className="fs-5 fw-semibold mb-3">Site map</h4>
+              <h4 className="fs-5 fw-semibold mb-3">Follow Us</h4>
               <div className="d-flex align-items-center gap-3">
                 <Link href='/'>
                   <FaInstagram className="fs-4" />
