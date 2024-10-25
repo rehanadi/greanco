@@ -12,4 +12,5 @@
   transform: translateY(-50%);
   width: 12rem;
   height: 12rem;
+  z-index: -10;
 }

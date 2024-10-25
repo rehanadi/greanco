@@ -53,7 +53,7 @@ const Hero = () => {
                 <h2 className="display-4 fw-medium">{slide.title}</h2>
                 <p className="lead text-muted fw-medium">{slide.description}</p>
               </div>
-              <div className={styles.sliderImage}>
+              <div className={`${styles.sliderImage} d-none d-lg-block`}>
                 <Image
                   fill
                   src={slide.image}
