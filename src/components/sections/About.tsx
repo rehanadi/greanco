@@ -3,12 +3,11 @@ import Image from "next/image";
 import styles from '@/styles/about.module.css';
 import teams from '@/assets/images/teams.svg';
 import check from '@/assets/images/check.svg';
-import arrowRight from '@/assets/images/arrow-right.svg';
 import { FaArrowRight } from "react-icons/fa";
 
 const About = () => {
   return (
-    <section className={`${styles.about} section fw-medium`}>
+    <section id="about" className={`${styles.about} section fw-medium`}>
       <div className="container">
         <div className="row pt-5">
           <div className="col-md-4">

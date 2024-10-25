@@ -1,0 +1,29 @@
+.title {
+  color: #088F7E;
+}
+
+.textAction {
+  color: #FF7400;
+}
+
+.serviceCard {
+  min-height: 30rem;
+}
+
+.serviceLink {
+  transition: all 0.25s ease;
+}
+
+.serviceLink:hover {
+  color: #088F7E;
+  text-decoration: none;
+}
+
+.btnContact {
+  background-color: #25D366;
+  border: none;
+}
+
+.btnContact:hover {
+  background-color: #1c9c4c;
+}

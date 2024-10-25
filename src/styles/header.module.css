@@ -3,6 +3,15 @@
   transition: all 0.25s ease;
 }
 
+.navLink:hover {
+  color: #088F7E;
+  text-decoration: none;
+}
+
 .enterseaLink {
   color: #088F7E;
+}
+
+.enterseaLink:hover {
+  color: #FF7400;
 }

@@ -16,12 +16,53 @@ const Header = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav ms-auto" style={{ gap: '20px' }}>
-              <a className={styles.navLink} aria-current="page" href="#">Home</a>
-              <a className={styles.navLink} href="#">About</a>
-              <a className={styles.navLink} href="#">Services</a>
-              <a className={styles.navLink} href="#">Client</a>
-              <a className={styles.navLink} href="#">Contact</a>
-              <a className={`${styles.navLink} ${styles.enterseaLink}`} href="#">Entersea</a>
+              <Link className={styles.navLink} aria-current="page" href="/">Home</Link>
+              <a className={styles.navLink} href="/#about">About</a>
+              <li className={`nav-item dropdown`}>
+                <a className={`${styles.navLink} dropdown-toggle`} href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul className="dropdown-menu mt-2">
+                  <li className="mb-2">
+                    <Link 
+                      className={`${styles.navLink} dropdown-item`}
+                      href="/services/mobile-development"
+                    >
+                      Mobile Apps Development
+                    </Link>
+                  </li>
+                  <li><hr className="dropdown-divider" /></li>
+                  <li className="mb-2">
+                    <Link 
+                      className={`${styles.navLink} dropdown-item`}
+                      href="/services/website-development"
+                    >
+                      Website Development
+                    </Link>
+                  </li>
+                  <li><hr className="dropdown-divider" /></li>
+                  <li className="mb-2">
+                    <Link 
+                      className={`${styles.navLink} dropdown-item`}
+                      href="/services/cyber-security"
+                    >
+                      Cyber Security
+                    </Link>
+                  </li>
+                  <li><hr className="dropdown-divider" /></li>
+                  <li>
+                    <Link 
+                      className={`${styles.navLink} dropdown-item`}
+                      href="/services/digital-marketing"
+                    >
+                      Digital Marketing
+                    </Link>
+                  </li>
+                </ul>
+              </li>
+              <Link className={styles.navLink} href="/#client">Client</Link>
+              <Link className={styles.navLink} href="/#contact">Contact</Link>
+              <Link className={`${styles.navLink} ${styles.enterseaLink}`} href="/">Entersea</Link>
             </div>
           </div>
         </div>

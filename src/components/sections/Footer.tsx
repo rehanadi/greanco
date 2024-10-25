@@ -6,11 +6,12 @@ import {
 } from 'react-icons/fa';
 import { MdEmail } from "react-icons/md";
 import styles from '@/styles/footer.module.css';
+import { CONTACT_EMAIL, DISPLAY_PHONE } from "@/constants";
 
 const Footer = () => {
   return (
     <footer>
-      <div className={styles.footer}>
+      <div id="contact" className={styles.footer}>
         <div className="container py-5">
           <div className="row">
             <div className="col-md-6">
@@ -38,11 +39,11 @@ const Footer = () => {
               <h4 className="fs-5 fw-semibold mb-3">Contact</h4>
               <div className="d-flex align-items-center gap-3 mb-3">
                 <FaPhoneAlt className="fs-6" />
-                <span>+62 895 147 886 08</span>
+                <span>{DISPLAY_PHONE}</span>
               </div>
               <div className="d-flex align-items-center gap-3">
                 <MdEmail className="fs-5" />
-                <span>greanco.info@gmail.com</span>
+                <span>{CONTACT_EMAIL}</span>
               </div>
             </div>
           </div>

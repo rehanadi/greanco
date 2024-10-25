@@ -12,8 +12,8 @@ const Teams = () => {
   return (
     <section className="section">
       <div className="container">
-        <h3 className="section-title">CEO Message</h3>
-        <div className="row">
+        <h3 className="section-title mb-4">CEO Message</h3>
+        <div className="row mb-5">
           <div className="col-md-3 d-flex justify-content-center">
             <div className="position-relative w-75 h-100">
               <Image src={ceo} alt="CEO" fill />
@@ -31,7 +31,7 @@ const Teams = () => {
           </div>
         </div>
 
-        <h3 className="section-title">Our Teams</h3>
+        <h3 className="section-title mb-4">Our Teams</h3>
         <div className="d-flex flex-wrap justify-content-between align-items-center gap-2">
           <Image src={team1} alt="Team" width={200} height={270} />
           <Image src={team2} alt="Team" width={200} height={270} />
