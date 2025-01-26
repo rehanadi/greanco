@@ -41,7 +41,7 @@ const Header = () => {
                     </Link>
                   </li>
                   <li><hr className="dropdown-divider" /></li>
-                  <li className="mb-2">
+                  {/* <li className="mb-2">
                     <Link 
                       className={`${styles.navLink} dropdown-item`}
                       href="/services/cyber-security"
@@ -49,7 +49,7 @@ const Header = () => {
                       Cyber Security
                     </Link>
                   </li>
-                  <li><hr className="dropdown-divider" /></li>
+                  <li><hr className="dropdown-divider" /></li> */}
                   <li>
                     <Link 
                       className={`${styles.navLink} dropdown-item`}
