@@ -38,14 +38,14 @@ const About = () => {
                   <span>Pengembangan</span>
                 </li>
               </ul>
-              <button
+              {/* <button
                 type="button"
                 className="btn btn-success text-white fw-semibold py-2 px-3 d-flex align-items-center gap-3"
                 style={{ backgroundColor: '#088F7E' }}
               >
                 <span>Pelajari Selengkapnya</span>
                 <FaArrowRight />
-              </button>
+              </button> */}
             </div>
           </div>
         </div>

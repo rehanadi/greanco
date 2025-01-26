@@ -61,7 +61,7 @@ const Header = () => {
                 </ul>
               </li>
               <Link className={styles.navLink} href="/#client">Client</Link>
-              <Link className={styles.navLink} href="/#contact">Contact</Link>
+              {/* <Link className={styles.navLink} href="/#contact">Contact</Link> */}
               <Link className={`${styles.navLink} ${styles.enterseaLink}`} href="/">Entersea</Link>
             </div>
           </div>

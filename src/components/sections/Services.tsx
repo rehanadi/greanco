@@ -13,7 +13,7 @@ const Services = () => {
     <section className="section">
       <div className="container pb-5">
         <h3 className="section-title mb-5">We offer to your business growth</h3>
-        <div className="d-flex flex-wrap justify-content-between align-items-center gap-2">
+        <div className="d-flex justify-content-between align-items-center gap-2">
           <div
             className={`${styles.serviceCard} card px-5 pt-2 pb-5 d-flex flex-column justify-content-center align-items-center`}
             style={{ backgroundColor: 'rgba(255, 116, 0, 0.15)' }}
@@ -26,14 +26,21 @@ const Services = () => {
                 Software Development
               </Link>
             </h4>
-            <Image
-              src={software}
-              alt="Software Development"
-              width={150}
-              height={150}
-              className="m-4 mb-5"
-            />
-            <div className="d-flex align-items-center gap-3 align-self-start mb-3">
+            <Link
+              href="/services/mobile-development"
+            >
+              <Image
+                src={software}
+                alt="Software Development"
+                width={150}
+                height={150}
+                className="m-4 mb-5"
+              />
+            </Link>
+            <div>
+              Software Development adalah proses pembuatan dan pengembangan situs aplikasi web dan mobile.
+            </div>
+            {/* <div className="d-flex align-items-center gap-3 align-self-start mb-3">
               <Image
                 src={web}
                 alt="Web Development"
@@ -60,7 +67,7 @@ const Services = () => {
               >
                 Mobile Development
               </Link>
-            </div>
+            </div> */}
           </div>
 
           <div
@@ -75,13 +82,20 @@ const Services = () => {
                 Cyber Security
               </Link>
             </h4>
-            <Image
-              src={security}
-              alt="Cyber Security"
-              width={150}
-              height={150}
-              className="m-4 mb-5"
-            />
+            <Link
+              href="/services/cyber-security"
+            >
+              <Image
+                src={security}
+                alt="Cyber Security"
+                width={150}
+                height={150}
+                className="m-4 mb-5"
+              />
+            </Link>
+            <div>
+              Cyber Security adalah praktik melindungi komputer, server, perangkat seluler, sistem elektronik, jaringan, dan data dari serangan berbahaya siber.
+            </div>
           </div>
 
           <div
@@ -96,13 +110,20 @@ const Services = () => {
                 Digital Marketing
               </Link>
             </h4>
-            <Image
-              src={marketing}
-              alt="Digital Marketing"
-              width={150}
-              height={150}
-              className="m-4 mb-5"
-            />
+            <Link
+              href="/services/digital-marketing"
+            >
+              <Image
+                src={marketing}
+                alt="Digital Marketing"
+                width={150}
+                height={150}
+                className="m-4 mb-5"
+              />
+            </Link>
+            <div>
+              Digital marketing adalah strategi pemasaran yang menggunakan internet dan perangkat digital untuk mencapai target audiens.
+            </div>
           </div>
         </div>
       </div>
