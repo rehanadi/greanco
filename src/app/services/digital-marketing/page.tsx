@@ -18,10 +18,10 @@ const ServicePage = () => {
           <div className="col-md-8">
             <div className="d-flex flex-column align-items-start gap-3">
               <p>
-                Digital marketing adalah strategi pemasaran yang menggunakan internet dan perangkat digital untuk mencapai target audiens. Berbeda dari pemasaran tradisional, digital marketing memanfaatkan berbagai platform online seperti media sosial, mesin pencari, email, dan situs web untuk mempromosikan produk atau jasa. Tujuannya adalah menjangkau audiens yang lebih luas dan meningkatkan engagement secara langsung dan terukur.
+                Digital marketing is a marketing strategy that utilizes the internet and digital devices to reach a target audience. Unlike traditional marketing, digital marketing leverages various online platforms such as social media, search engines, email, and websites to promote products or services. The goal is to reach a wider audience and increase engagement in a direct and measurable way.
               </p>
               <p className={`${styles.textAction} fw-medium`}>
-                Diskusikan lebih lanjut mengenai Digital Marketing bersama kami
+                Let's discuss Digital Marketing further with us.
               </p>
               <ButtonContact />
             </div>

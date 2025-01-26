@@ -13,15 +13,15 @@ import Image from "next/image";
 
 const slides = [
   {
-    title: 'Software Development',
+    title: 'Website Development',
     description: 'Innovative Software, Tailored for Tomorrow',
     image: serviceMobile,
   },
-  {
-    title: 'Cyber Security',
-    description: 'Your Shield in the Cyber Frontier',
-    image: serviceSecurity,
-  },
+  // {
+  //   title: 'Cyber Security',
+  //   description: 'Your Shield in the Cyber Frontier',
+  //   image: serviceSecurity,
+  // },
   {
     title: 'Digital Marketing',
     description: 'Turning Clicks into Customers',

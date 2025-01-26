@@ -23,7 +23,7 @@ const Header = () => {
                   Services
                 </a>
                 <ul className="dropdown-menu mt-2">
-                  <li className="mb-2">
+                  {/* <li className="mb-2">
                     <Link 
                       className={`${styles.navLink} dropdown-item`}
                       href="/services/mobile-development"
@@ -31,7 +31,7 @@ const Header = () => {
                       Mobile Apps Development
                     </Link>
                   </li>
-                  <li><hr className="dropdown-divider" /></li>
+                  <li><hr className="dropdown-divider" /></li> */}
                   <li className="mb-2">
                     <Link 
                       className={`${styles.navLink} dropdown-item`}

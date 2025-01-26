@@ -18,21 +18,21 @@ const Services = () => {
             <div className="card h-100 px-5 pt-2 pb-5 d-flex flex-column justify-content-center align-items-center"
                  style={{ backgroundColor: 'rgba(255, 116, 0, 0.15)' }}>
               <h4 className="my-4 text-center fs-4 fw-medium">
-                <Link className="service-link" href="/services/mobile-development">
-                  Software Development
+                <Link className="service-link" href="/services/website-development">
+                  Website Development
                 </Link>
               </h4>
-              <Link href="/services/mobile-development">
+              <Link href="/services/website-development">
                 <Image
                   src={software}
-                  alt="Software Development"
+                  alt="Website Development"
                   width={150}
                   height={150}
                   className="m-4 mb-5"
                 />
               </Link>
               <div>
-                Software Development adalah proses pembuatan dan pengembangan situs aplikasi web dan mobile.
+                Website Development is the process of creating and developing websites to make the website function optimally.
               </div>
             </div>
           </div>
@@ -78,7 +78,7 @@ const Services = () => {
                 />
               </Link>
               <div>
-                Digital marketing adalah strategi pemasaran yang menggunakan internet dan perangkat digital untuk mencapai target audiens.
+                Digital marketing is a marketing strategy that uses the internet and digital devices to reach a target audience.
               </div>
             </div>
           </div>

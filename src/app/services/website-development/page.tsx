@@ -18,10 +18,10 @@ const ServicePage = () => {
           <div className="col-md-8">
             <div className="d-flex flex-column align-items-start gap-3">
               <p>
-                Website Development adalah proses pembuatan dan pengembangan situs web. Ini melibatkan berbagai tahapan, mulai dari perencanaan konsep, desain tampilan, hingga pengembangan kode program untuk membuat situs web berfungsi secara optimal.
+                Website Development is the process of creating and developing websites. It involves various stages, from conceptual planning and design to developing the program code to make the website function optimally.
               </p>
               <p className={`${styles.textAction} fw-medium`}>
-                Diskusikan lebih lanjut mengenai Website Development bersama kami
+                Discuss Website Development further with us.
               </p>
               <ButtonContact />
             </div>
